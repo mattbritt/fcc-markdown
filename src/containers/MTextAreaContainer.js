@@ -1,5 +1,5 @@
 import React from 'react';
-import marked from 'marked';
+//import marked from 'marked';
 import {MTextArea} from '../components/MTextArea';
 
 import {styles} from '../helpers/styles';

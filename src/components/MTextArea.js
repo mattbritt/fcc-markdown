@@ -1,5 +1,5 @@
 import React from 'react';
-import marked from 'marked';
+//import marked from 'marked';
 
 import {styles} from '../helpers/styles';
 
@@ -41,7 +41,6 @@ export class MTextArea extends React.Component{
     handleChange(event)
     {
         this.props.updateResults(event.target.value);
-        console.log(event.target.value);
     }
     
     render(){
