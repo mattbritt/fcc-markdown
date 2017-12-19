@@ -39,7 +39,8 @@ let styles = {
         marginLeft:'5%',
         marginRight:'5%',
         marginTop:'1.5em',
-        marginBottom:0
+        marginBottom:0,
+        fontSize:'1.5em'
     }
 
 

@@ -1,8 +1,9 @@
 import React from 'react';
-
+import marked from 'marked';
 import {MTextArea} from '../components/MTextArea';
 
 import {styles} from '../helpers/styles';
+
 
 
 export class MTextAreaContainer extends React.Component {
@@ -22,6 +23,8 @@ export class MTextAreaContainer extends React.Component {
         this.setState({focus: !this.state.focus});
     }
 
+
+
     render(){
     
 
@@ -30,6 +33,7 @@ export class MTextAreaContainer extends React.Component {
             onFocus={this.toggleFocus}
             onBlur={this.toggleFocus}
             focus={this.state.focus}
+            updateResults={this.props.updateResults}
             />
             );
     }

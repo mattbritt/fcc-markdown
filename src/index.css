@@ -4,4 +4,13 @@ body {
   font-family: sans-serif;
 }
 
+code{
+  background: rgba(255,0,0,.07);
+  color:darkred;
+  border-radius:3px;
+  padding: 0 3px 0 3px;
+}
 
+a{
+  text-decoration:none;
+}
